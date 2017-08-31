@@ -22,10 +22,10 @@ function del() {
     document.getElementById("write").innerHTML = output;
 }
 function upperCase() {
-    isUpper = true;
+    isUpper = !isUpper;
     return isUpper;
 }
 function shift() {
-    isShift = true;
+    isShift = !isShift;
     return isShift;
 }
